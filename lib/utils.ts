@@ -5,7 +5,7 @@ import { twMerge } from "tailwind-merge";
 import { z } from "zod";
 
 export function cn(...inputs: ClassValue[]) {
-  return twMerge(clsx(inputs));yarn devicePixelRatio
+  return twMerge(clsx(inputs)); devicePixelRatio
 }
 
 // FORMAT DATE TIME
